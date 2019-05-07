@@ -1,0 +1,90 @@
+.pusher {
+    overflow: auto !important;
+    height: inherit;
+}
+
+.container-left {
+    display: flex;
+    position: fixed;
+    width: 21%;
+    top: 6rem;
+    bottom: 1rem;
+    left: 1rem;
+    overflow-y: auto;
+}
+
+.container-right {
+    height: fit-content;
+    width: 75%;
+    margin: 6rem 1rem 1rem auto;
+}
+
+.ui.fluid.accordion {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+.ui.segment > .header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ui.list {
+    background: white;
+    height: fit-content;
+    width: 100%;
+}
+
+.ui.list > a.item {
+    border-bottom: solid .1rem lightgrey;
+    color: black;
+    padding: .8rem !important;
+}
+
+.ui.list > a.item:hover {
+    margin-left: .5rem;
+}
+
+.ui.loader {
+    margin: 3rem !important;
+}
+
+.ui.link.cards {
+    display: none;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+.ui.link.cards .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.ui.pagination.menu {
+    display: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 3rem !important;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+@media (max-width: 850px) {
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        width: 95%;
+        margin: 6rem auto 1rem auto;
+    }
+}
+
+
+.disableClick{
+  pointer-events: none;
+  cursor: none !important;
+  text-decoration: none;
+  background-color: #e5e5e5 ;
+}

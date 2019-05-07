@@ -1,0 +1,49 @@
+.pusher {
+    overflow: auto !important;
+    height: 100%;
+}
+
+#segment-one, #segment-two{
+    height: auto;
+    width: 100%;
+    padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+}
+#segment-one{
+    padding-top: 6.3rem;
+}
+.container {
+    box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.2), 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.product-title{
+    text-align: center;
+}
+.product-title p{
+    line-height: 3rem;
+    font-weight: bold;
+}
+.product-action{
+    padding-left: 10%;
+}
+
+
+@media (max-width: 850px) {
+    #segment-one, #segment-two, .title-one {
+        height: auto;
+    }
+
+    .column.left, .column.right {
+        width: auto;
+    }
+
+    /* #segment-one .column.left {
+        display: 30rem;
+    }
+    
+    #segment-two .column.right {
+        display: 30rem;
+    } */
+}

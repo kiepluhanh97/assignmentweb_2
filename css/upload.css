@@ -1,0 +1,43 @@
+.pusher {
+    background: rgba(255, 255, 255, 0.95) !important;
+    overflow: auto !important;
+    height: inherit;
+}
+
+.container {
+    box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.2), 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    min-height: fit-content;
+    height: fit-content;
+    min-width: 30rem;
+    width: 35%;
+    margin: 7rem auto 2rem auto;
+}
+
+.ui.form {
+    background: white;
+    border-radius: .5rem;
+    padding: 2rem;
+    width: 100%;
+}
+
+.ui.form .user.circle.icon {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.ui.form .ui.button {
+    display: flex;
+    margin: auto;
+}
+
+.ui.form .text-center {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+::-webkit-file-upload-button {
+    visibility: hidden;
+    width: 0;
+}

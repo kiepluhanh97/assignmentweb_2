@@ -1,0 +1,88 @@
+body {
+    overflow: hidden;
+}
+
+.menu {
+    margin: 0 !important;
+}
+
+#small-menu {
+    display: none;
+}
+
+#large-menu,
+#small-menu {
+    background: #1b1c1d;
+    min-height: 5rem;
+    height: 5rem;
+    padding: .5rem;
+}
+
+#large-menu .title {
+    color: white;
+    font-size: x-large;
+    margin: auto 3rem;
+}
+
+#large-menu > .item:not(#header-button):hover {
+    background: none;
+    border-bottom: solid .12rem white;
+    margin-bottom: -0.12rem;
+}
+
+#large-menu .item.active {
+    background: none;
+    border-bottom: solid .12rem white;
+    margin-bottom: -0.12rem;
+}
+
+.sidebar .title {
+    color: white;
+    font-size: x-large;
+    margin: 2rem 3rem;
+}
+
+.align-center {
+    display: flex;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+.align-center .button {
+    width: 40%;
+    margin: auto;
+}
+
+.title .label {
+    font-size: large;
+}
+
+#header-button {
+    margin-right: 3rem;
+}
+
+#header-button .button {
+    margin: 0 .5rem;
+}
+
+.noselect {
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Small devices */
+
+@media (max-width: 850px) {
+    #large-menu {
+        display: none;
+    }
+    #small-menu {
+        display: flex;
+    }
+}
